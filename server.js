@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 
 const corsOptions = {
-    origin: 'https://qniver.netlify.app',
+    origin: 'https://qniver.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
