@@ -3,7 +3,7 @@ const mysql = require("mysql2");
 const cors = require("cors");
 // const jwt = require('jsonwebtoken');
 
-const PORT = 4000
+const PORT = process.env.PORT || 4000;
 const app = express();
 
 const corsOptions = {
@@ -20,10 +20,10 @@ app.get('/', (req, res) => {
   });
 
 const db = mysql.createConnection({
-        host: "localhost",
-        user: "root",
-        password: "",
-        database: "user_logs"
+        host: "sql205.infinityfree.com",
+        user: "epiz_33252339",
+        password: "UbcndQ8HatPQ",
+        database: "epiz_33252339_user_logs"
 });
 
 
