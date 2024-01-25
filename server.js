@@ -9,7 +9,7 @@ const app = express();
 const corsOptions = {
     origin: 'https://qniver.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
+    credentials: true, 
     optionsSuccessStatus: 204,
   };
 
